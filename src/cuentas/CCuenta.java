@@ -69,7 +69,7 @@ public class CCuenta {
      * bancaria.
      *
      * @param cantidad La cantidad de efectivo a ingresar
-     * @throws Excepción que lanza si la cantidad es negativa
+     * @throws Exception que lanza si la cantidad es negativa
      */
     public void ingresar(double cantidad) throws Exception {
         if (cantidad < 0) {
@@ -83,7 +83,7 @@ public class CCuenta {
      * bancaria.
      *
      * @param cantidad La cantidad de efectivo a retirar.
-     * @throws Excepcion si la cantidad indicada es negativa o si no hay saldo
+     * @throws Exception si la cantidad indicada es negativa o si no hay saldo
      * suficiente en la cuenta bancaria.
      */
     public void retirar(double cantidad) throws Exception {
